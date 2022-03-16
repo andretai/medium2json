@@ -11,5 +11,18 @@
   "dependencies": {
     "node-fetch": "^2.6.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andretai/medium2json.git"
+  },
+  "keywords": [
+    "medium",
+    "medium.com",
+    "posts",
+    "rss",
+    "json",
+    "async",
+    "promise"
+  ]
 }
