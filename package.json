@@ -1,6 +1,6 @@
 {
   "name": "medium2json",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Converts your Medium.com profile's posts into a JSON object.",
   "main": "index.js",
   "scripts": {
