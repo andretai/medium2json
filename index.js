@@ -11,4 +11,15 @@ const getPosts = async (username) => {
   return posts
 }
 
-module.exports = { getPosts }
+const getFeed = async (username) => {
+  let feed = {}
+  const feedURL = `https://medium.com/feed/@${username}`
+  const toolURL = `https://api.rss2json.com/v1/api.json?rss_url=${feedURL}`
+  await fetch(toolURL)
+    .then(response => response.json())
+    .then(data => feed = data.feed)
+    .catch(err => console.log(err))
+  return feed
+}
+
+module.exports = { getPosts, getFeed }
