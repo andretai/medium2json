@@ -1,6 +1,10 @@
 # medium2json
 Converts your Medium.com profile's posts into a JSON object.
 
+## Live Demo
+
+See how it can be used on this simple live demo on https://medium2json.web.app/.
+
 ## How to Install
 
 Run `npm i medium2json` in your project directory.
